@@ -7,6 +7,19 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
+## How to run SpiritX_DevDreamers https://github.com/Bela2002/SpiritX_DevDreamers_Project01.git
+
+1. Clone the project
+2. open xampp and start apache and mysql
+3. open the project from vscode
+4. open the terminal and run these command 
+php artisan serve - to start the laravel project(In a seperate terminal)
+(Before that ensure about laravel framework and composer)
+npm install - to install npm packages
+npm run dev - to run js functions regarding frontend, authentication and authorization(in a seperate terminal)
+php artisan migrate - to implement the database funtions (in a seperate terminal)
+5. to get the admin panel view, go to app.blade.php and change the username under the "admin panel" comment. Before that you have to create an account.
+
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
@@ -64,3 +77,4 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
