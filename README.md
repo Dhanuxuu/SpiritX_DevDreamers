@@ -20,6 +20,9 @@ npm run dev - to run js functions regarding frontend, authentication and authori
 php artisan migrate - to implement the database funtions (in a seperate terminal)
 5. to get the admin panel view, go to app.blade.php and change the username under the "admin panel" comment. Before that you have to create an account.
 
+Frontend - https://github.com/Bela2002/SecureConnect-Login-System.git
+New project - DevDreamers123
+
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
